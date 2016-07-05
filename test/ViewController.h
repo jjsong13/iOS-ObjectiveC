@@ -22,5 +22,11 @@
 
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
+@property (weak, nonatomic) IBOutlet UISwitch *switchButton;
+
+- (IBAction)switchTouch:(id)sender;
+
 @end
 

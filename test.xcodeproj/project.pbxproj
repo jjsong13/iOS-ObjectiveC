@@ -14,6 +14,7 @@
 		4EBC22241D2A8F4600FCEDDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EBC22231D2A8F4600FCEDDF /* Images.xcassets */; };
 		4EBC22271D2A8F4600FCEDDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EBC22251D2A8F4600FCEDDF /* LaunchScreen.xib */; };
 		4EBC22331D2A8F4600FCEDDF /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBC22321D2A8F4600FCEDDF /* testTests.m */; };
+		4EBC223F1D2C0ADD00FCEDDF /* IMG_7554.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4EBC223E1D2C0ADD00FCEDDF /* IMG_7554.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		4EBC222C1D2A8F4600FCEDDF /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBC22311D2A8F4600FCEDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EBC22321D2A8F4600FCEDDF /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		4EBC223E1D2C0ADD00FCEDDF /* IMG_7554.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_7554.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				4EBC22201D2A8F4600FCEDDF /* Main.storyboard */,
 				4EBC22231D2A8F4600FCEDDF /* Images.xcassets */,
 				4EBC22251D2A8F4600FCEDDF /* LaunchScreen.xib */,
+				4EBC223E1D2C0ADD00FCEDDF /* IMG_7554.JPG */,
 				4EBC22161D2A8F4600FCEDDF /* Supporting Files */,
 			);
 			path = test;
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EBC223F1D2C0ADD00FCEDDF /* IMG_7554.JPG in Resources */,
 				4EBC22221D2A8F4600FCEDDF /* Main.storyboard in Resources */,
 				4EBC22271D2A8F4600FCEDDF /* LaunchScreen.xib in Resources */,
 				4EBC22241D2A8F4600FCEDDF /* Images.xcassets in Resources */,

@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    //bring in Image added to folder
+    [_imageView setImage:[UIImage imageWithContentsOfFile: [[NSBundle mainBundle] pathForResource:@"IMG_7554" ofType:@"JPG"]]];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,8 +38,21 @@
     //call the altered request's information to web view to open web page
     [_webView loadRequest:request];
 }
-//setText method declares the user to input a value in text property in the textView. It declares to apply the method after reading the text value in text field. 
+//setText method declares the user to input a value in text property in the textView. It declares to apply the method after reading the text value in text field.
 - (IBAction)inputTextToTextView:(id)sender {
     [_textView setText:[_textField text]];
+}
+//If On when switch is pressed, show UIImageView and if not, it disappears. Alpha value shows the transparency (0.0 being fully transparent, i.e. not present and 1.0 being fully opaque)
+
+- (IBAction)switchTouch:(id)sender {
+    if([_switchButton isOn])
+    {
+        [_imageView setAlpha:1.0f];
+    }
+    else
+    {
+        [_imageView setAlpha:0.0f];
+    }
+    
 }
 @end

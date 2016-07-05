@@ -55,12 +55,23 @@
                                     <action selector="inputTextToTextView:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ABI-w0-LSS"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w06-sf-aNe">
+                                <rect key="frame" x="31" y="308" width="317" height="260"/>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ABg-Ip-yNF">
+                                <rect key="frame" x="299" y="591" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchTouch:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="d6w-2t-wH9"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="button" destination="Wc1-Ji-58z" id="aKO-AA-4Lk"/>
+                        <outlet property="imageView" destination="w06-sf-aNe" id="aZT-aO-DUT"/>
+                        <outlet property="switchButton" destination="ABg-Ip-yNF" id="l3H-fp-WPA"/>
                         <outlet property="textField" destination="EwC-Cp-WO7" id="ETr-HK-Pts"/>
                         <outlet property="textView" destination="iHr-f0-sD1" id="fVz-H7-uop"/>
                         <outlet property="webView" destination="6L6-GK-JGg" id="Tgy-ug-wwL"/>
