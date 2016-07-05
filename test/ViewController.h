@@ -14,6 +14,13 @@
 
 - (IBAction)buttonTouch:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
+- (IBAction)inputTextToTextView:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UITextView *textView;
 
 @end
 
